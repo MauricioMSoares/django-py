@@ -4,5 +4,3 @@ def students(request):
     if request.method == 'GET':
         student = {'id': 1, 'name': 'Student'}
         return JsonResponse(student)
-
-# Create your views here.
